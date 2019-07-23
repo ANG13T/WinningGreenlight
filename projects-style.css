@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+
+h1{
+    color:white;
+    text-align: center;
+    position: relative;
+    top:150px;
+    font-family:Arimo;
+    font-size: 100px;
+    line-height:110px;
+    animation-name:float;
+    animation-duration: 1s;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#4a4a4a;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    margin:0px;
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    transition: 2s color;
+    font-family:Oswald;
+    border-right:3px solid white;
+    text-align:center;
+    padding:5px;
+    width: 17%;
+}
+
+a:hover{
+    background-color:black;
+}
+
+header{
+    background-image:url(gears.jpg);
+    margin:0px;
+    height:400px;
+    position: relative;
+    bottom:55px;
+}
+
+@keyframes float{
+    0%{
+        line-height:325px;
+    }
+    25%{
+        line-height:200px
+    }
+
+    50%{
+        line-height:175px
+    }
+
+    75%{
+        line-height:150px
+    }
+    
+    100%{
+        line-height:110px;
+    }
+}
