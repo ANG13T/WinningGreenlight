@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
+    text-align:center;
+    padding:8px;
+    width: 9%;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffffff;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
+}
+
+body{
+    background-image:url("death-star.jpg");
+    background-size: cover;
+}
+
+.game{
+    margin-left:330px;
+    margin-top:100px;
+}

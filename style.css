@@ -2,90 +2,114 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 header{
-    background-image:url(death-star.jpg);
-    background-position-x: 50%;
-    height:500px;
+    background-image:url(awesomeimgwithrobota.jpg);
+    /* background-position-x: 50%; */
+    background-size:contain;
+    height:85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+    width: 100%;
 }
 
+body, html{
+    background-color: rgb(162, 207, 243);
+    width: 100%;
+    margin: 0;
+}
+
+#big{
+    margin-left:50px;
+}
 
 h1{
     margin:0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins';
     color:white;
-    font-size:100px;
-    text-align:center;
+    font-size:50px;
+    text-align:left;
     margin-top:0%;
-    line-height:320px;
+    line-height:520px;
     animation-name:float;
     animation-duration: 1s;
+    position: relative;
+}
+
+#aboutit{
+    left:130px;
+    bottom:180px;
+    position: relative;
+    color:white;
+    font-family: 'Poppins';
+    width:500px;
+}
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
 }
 
 a{
     text-decoration: none;
-    color:white;
-    transition: 2s color;
-    font-family:Oswald;
-    border-right:3px solid white;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
     text-align:center;
-    padding:5px;
-    width: 17%;
+    padding:8px;
+    width: 9%;
 }
 
+
 a:hover{
-    background-color:black;
+    text-decoration: underline;
 }
 
 nav{
     display:flex;
     justify-content: space-around;
     font-size: 30px;
-    background-color:#4a4a4a;
+    background-color:#ffffff;
     height:70px;
     line-height:50px;
     z-index:2;
     width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
 }
 
 p{
-    color:white;
+    color:rgb(37, 14, 167);
     font-family: Poppins;
     text-align:center;
 }
 
-button{
-    border:2px solid gray;
-    color:white;
-    background-color: blue;
-    position: relative;
-    left:650px;
-    height:40px;
-    font-size:15px;
-    transition:2s background-color;
-}
-
-
 #downlink{
-    background-color: blue;
-    border:2px solid white;
+    background-color: rgb(51, 51, 51);
     height:40px;
     font-size:20px;
     position: relative;
-    left:650px;
+    left:300px;
+    bottom:170px;
+    color:white;
+    padding:20px;
     transition: 2s background-color;
 }
 
 #downlink:hover{
     background-color: rgb(138, 138, 231);
+    text-decoration: none;
 }
 
 aside{
-    border-right:4px solid black;
+    border-right:4px solid rgb(223, 223, 223);
     margin:auto;
     float:left;
     width:300px;
-    background-color:rgb(158, 154, 154);
+    background-color:white;
 }
 
 h3{
@@ -93,28 +117,37 @@ h3{
     text-align:center;
 }
 
-.day{
-    margin-left:36px;
-    color:blue;
-    font-size:45px;
-    font-family:'Roboto Condensed';
+
+
+.calenderimg{
+    width:90px;
+    height:90px;
+    position: relative;
+    right:20px;
+    top:30px;
 }
 
-.month{
-    margin-left:36px;
-    color:black;
-    font-size:30px;
-    font-family:'Roboto Condensed';
-}
 
 .title{
-    margin-left:35px;
-    font-family:Oswald;
+    position: relative;
+    text-align:center;
+    font-family:'Source Sans Pro';
+    color:rgb(5, 168, 106);
 }
 
 .event{
     display:flex;
-   border-bottom:2px solid black;
+    justify-content: center;
+   border-bottom:2px dotted black;
+   height:160px;
+   position: relative;
+   /* left:30px; */
+}
+
+.minidate{
+    font-size:20px;
+    color:gray;
+    font-family:'Source Sans Pro';
 }
 
 .sticky{
@@ -134,7 +167,9 @@ h3{
     animation: none;
     font-size:40px;
     position: relative;
-    left:140px;
+    left:240px;
+    text-decoration: underline;
+    text-decoration-color: mediumspringgreen;
 }
 
 section{
@@ -146,45 +181,34 @@ section{
     color:black;
     width:450px;
    position: relative;
-   bottom:100px;
-   left:140px;
+   bottom:200px;
+   left:160px;
 }
 
 #calender{
     color:black;
-    font-size:20px;
-    font-family:'Roboto Condensed';
+    font-size:30px;
+    font-family:'Lato';
     font-weight:bold;
-    margin-left:20px;
-}
-
-#whatsnew{
-    border-right:none;
-    border-left:4px solid black;
-    margin:auto;
-    float:right;
-    width:330px;
-    background-color:rgb(158, 154, 154);
-   margin-bottom:630px;
-    position: relative;
-    left:160px;
-}
-
-#whatsnewtext{
-    color:black;
-    font-family:Oswald;
     text-align:center;
+    text-decoration: underline;
+    text-decoration-color: mediumspringgreen;
 }
+
+
 
 
 #right-section{
     display:flex;
+    margin: 0;
 }
 
 .img{
     width:200px;
     height:200px;
     margin-left:69px;
+    border:5px solid mediumaquamarine;
+    border-radius:6px;
 }
 
 .post-text{
@@ -192,26 +216,130 @@ section{
     font-size:12px;
 }
 
+footer{
+    background-color:rgb(45, 121, 209);
+    background-size:cover;
+    background-position-y:-300px;
+    height:300px;
+}
 
+.sponser{
+    width:150px;
+    height:150px;
+    position: relative;
+    top:50px;
+}
+
+#disney{
+    width:200px;
+}
+
+#pixar{
+    width:190px;
+}
+
+#sponserssec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    width:900px;
+    height: 300px;
+    background-color:cornflowerblue;
+    margin-bottom:30px;
+    margin-top:30px;
+    border:20px solid cornflowerblue;
+    border-radius:8px;
+    display: flex;
+}
+
+.box2{
+    width:900px;
+    height: 300px;
+    background-color:cornflowerblue;
+    margin-bottom:72px;
+    margin-top:30px;
+    border:20px solid cornflowerblue;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whatsnewtext{
+    color:white;
+    font-size:14px;
+    width:200px;
+    margin-right:10px;
+    border-right:5px solid turquoise;
+}
+
+
+#image{
+    width:280px;
+    height:280px;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: column;
+    margin-left:400px;
+}
+
+.box1title{
+    font-family:Poppins;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    color:white;
+}
+
+#textbox{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    margin-left:50px;
+}
+
+#text{
+    color:white;
+    font-size:14px;
+}
+
+.textsec{
+    display: flex;
+    flex-direction: column;
+}
+
+#textclass{
+    display: flex;
+}
+
+#nasa{
+    width:160px;
+}
+
+#intell{
+    width:160px;
+}
 
 
 @keyframes float{
     0%{
-        line-height:425px;
+        line-height:625px;
     }
     25%{
-        line-height:400px
+        line-height:600px
     }
 
     50%{
-        line-height:375px
+        line-height:575px
     }
 
     75%{
-        line-height:350px
+        line-height:550px
     }
     
     100%{
-        line-height:320px;
-    }
+        line-height:520px;
+    } 
 }

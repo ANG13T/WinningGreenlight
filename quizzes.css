@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
+    text-align:center;
+    padding:8px;
+    width: 9%;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffffff;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
+}
+
+h1{
+    margin:0;
+    font-family: Poppins, sans-serif;
+    color:white;
+    font-size:100px;
+    text-align:center;
+    margin-top:0%;
+    line-height:320px;
+    animation-name:float;
+    animation-duration: 1s;
+}
+
+header{
+    background-image:url("quizbanner.jpg");
+    background-size:contain;
+}
+
+h2{
+    color:white;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#starwars{
+    background-image:url(death-star.jpg);
+    height:600px;
+    width:450px;
+   text-align:center;
+   font-family: Poppins;
+   
+}
+
+div{
+    transition: 2s opacity;
+    position: relative;
+    right:70px;
+}
+
+h2{
+    line-height:450px;
+    font-size:30px;
+}
+
+.link{
+    background-color: transparent;
+}
+
+.link:hover{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#robot{
+    background-image:url(circuit-board-background-blue.jpg);
+    height:600px;
+    width:400px;
+    text-align:center;
+    font-family: Poppins;
+    color:yellow;
+}
+
+#STEM{
+    background-image:url(copy.jpg);
+    color:rgb(0, 68, 255);
+    height:600px;
+    width:400px;
+    text-align:center;
+    font-family: Poppins;
+    opacity: 1;
+    transition: 2s opacity;
+    margin-right:80px;
+}
+
+div:hover{
+    opacity:0.7;
+}
+
+@keyframes float{
+    0%{
+        line-height:425px;
+    }
+    25%{
+        line-height:400px
+    }
+
+    50%{
+        line-height:375px
+    }
+
+    75%{
+        line-height:350px
+    }
+    
+    100%{
+        line-height:320px;
+    } 
+}

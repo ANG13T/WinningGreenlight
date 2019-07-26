@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
+    text-align:center;
+    padding:8px;
+    width: 9%;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffffff;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
+}
+
+header{
+    background-image:url("bottomgears.jpg");
+    background-blend-mode:lighten;
+    height:400px;
+    background-size: cover;
+    background-position-y:-30px;
+    position: relative;
+    bottom:55px;
+    animation-name:float;
+    animation-duration: 1s;
+}
+
+#title{
+    color:white;
+    text-align:center;
+    position: relative;
+    top:230px;
+    font-size:100px;
+    font-family:Poppins;
+}
+
+.intro{
+    text-align:center;
+    font-family: Oswald;
+    font-size:40px;
+    color:blue;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+p{
+    position: relative;
+    left:0px;
+    width:600px;
+    font-size:24px;
+}
+
+#topsec{
+    display:flex;
+    margin-left:200px;
+}
+
+#image1{
+    width:500px;
+    height:500px;
+    border:5px solid aliceblue;
+    border-radius:6px;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+}
+
+#cards{
+    display:flex;
+    margin-left:90px;
+}
+
+.card{
+    width:370px;
+    height:550px;
+    background-color:cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin-right:50px;
+    border:7px solid cadetblue;
+    border-radius:5px;
+    transition:1s opacity;
+    opacity:0.8;
+}
+
+.card:hover{
+    opacity:1;
+}
+
+.cardimg{
+    width:370px;
+    height:300px;
+}
+
+.name{
+    font-family:Poppins;
+    font-size:30px;
+    text-align:center;
+}
+
+.para{
+    font-family:'Roboto Condensed';
+    font-size:16px;
+    text-align:center;
+    width:370px;
+}
+
+#robodes{
+    font-family:'Roboto Condensed';
+    margin-right:40px;
+}
+
+body{
+   background-color: rgb(198, 212, 212);
+    background-blend-mode: lighten;
+    background-size:cover;
+}
+
+
+
+@keyframes float{
+    0%{
+        bottom:0px;
+    }
+
+    12%{
+        bottom:7px;
+    }
+
+    25%{
+        bottom:14px;
+    }
+
+    37%{
+        bottom:21px;
+    }
+
+    50%{
+        bottom:28px;
+    }
+
+    62%{
+        bottom:35px;
+    }
+
+    75%{
+        bottom:42px;
+    }
+    
+    88%{
+        bottom:49px;
+    }
+
+    100%{
+        bottom:55px;
+    } 
+}

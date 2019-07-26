@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
+    text-align:center;
+    padding:8px;
+    width: 9%;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-image:url("simpleScience.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffffff;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
+}
+
+#title{
+    font-size:30px;
+    color:black;
+    font-family:'Roboto Condensed';
+    border-bottom: 2px solid gray;
+    text-align:center;
+}
+
+.pic{
+    width:460px;
+    height:380px;
+    border-right: 5px solid rgb(211, 211, 211);
+    border-left: 5px solid rgb(211, 211, 211);
+}
+
+.article-title{
+    font-family: 'Roboto Slab';
+    text-align:center;
+}
+
+.article{
+    background-color:rgb(211, 211, 211);
+    width:470px;
+    height:600px;
+}
+
+.text{
+    position: relative;
+    left:3px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:60px;
+}
+
+.title-section{
+    display:flex;
+}
+
+.star{
+    width:25px;
+    height:25px;
+    position: relative;
+    bottom:370px;
+    left:25px;
+}
+
+@keyframes slide{
+    0%{
+        margin-bottom: 100px;
+    }
+
+    25%{
+        margin-bottom: 75px;
+    }
+
+    50%{
+        margin-bottom: 50px;
+    }
+
+    75%{
+        margin-bottom: 25px;
+    }
+
+    100%{
+        margin-bottom: 0px;
+    }
+}

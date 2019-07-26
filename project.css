@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+#bigdreamslogo{
+    width:70px;
+    height:70px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 1s text-decoration;
+    font-family:'Roboto Condensed';
+    text-align:center;
+    padding:8px;
+    width: 9%;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffffff;
+    height:70px;
+    line-height:50px;
+    z-index:2;
+    width:100%;
+    border-bottom:5px solid rgb(76, 255, 135);
+    padding-top:3px;
+}
+
+body{
+    background-color:rgb(230, 226, 215);
+}
+
+#top{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    background-image: url("spacerobot.jpg");
+    background-size:cover;
+    height:500px;
+    width:1200px;
+    margin-top:40px;
+}
+
+.context{
+    color:white;
+    font-size:40px;
+    font-family:'Arimo';
+    background-color:black;
+    width:1200px;
+    height:40px;
+    padding-top:35px;
+    margin-right:80px;
+    padding-bottom:30px;
+    text-align:center;
+    opacity: 0.7;
+    position: relative;
+    top:370px;
+    line-height: 3px;
+}
+
+p{
+    color:black;
+    font-family:'Roboto Condensed';
+    font-size:16px;
+    width:800px;
+    height:280px;
+    text-align:center;
+    top:70px;
+    position: relative;
+    margin-left:30px;
+}
+
+.box2{
+    width:1180px;
+    height: 300px;
+    background-color:cornflowerblue;
+    margin-bottom:72px;
+    margin-top:30px;
+    margin-left:100px;
+    border:20px solid cornflowerblue;
+    border-radius:8px;
+    display: flex;
+}
+
+#pic{
+    width:300px;
+    height:280px;
+}
+
+.posttitle{
+    font-size:30px;
+    font-family:'Roboto COndensed';
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+body{
+    background-image:url("simplegears.png");
+    background-blend-mode: lighten;
+}
